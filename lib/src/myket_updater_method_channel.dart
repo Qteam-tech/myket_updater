@@ -2,6 +2,10 @@ import 'package:flutter/services.dart';
 import 'myket_updater_platform_interface.dart';
 import 'myket_update_result.dart';
 
+/// An implementation of [MyketUpdaterPlatform] that uses method channels.
+///
+/// This class communicates with the native platform code through method channels
+/// to check for updates and open the Myket store.
 class MethodChannelMyketUpdater extends MyketUpdaterPlatform {
   static const MethodChannel _channel = MethodChannel('myket_updater');
 
