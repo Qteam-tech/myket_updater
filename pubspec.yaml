@@ -1,6 +1,6 @@
 name: myket_updater
 description: A Flutter plugin for checking app updates on Myket (Iranian app store). Provides a simple API to check for updates and show an update dialog to users.
-version: 1.0.1
+version: 1.0.2
 repository: https://github.com/Qteam-tech/myket_updater
 
 environment:
